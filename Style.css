@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 40px;
+}
+
+.contato{
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0002;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #45a049;
+}
+
+#mensagem-confirmacao{
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
