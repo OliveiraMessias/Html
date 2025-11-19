@@ -2,7 +2,7 @@ const inputNome = document.getElementById("nome");
 const inputEmail = document.getElementById("email");
 const inputMensagem = document.getElementById("mensagem");
 const botaoEnviar = document.getElementById("btn-enviar");
-const mensagemConfirmacao = document.getElementById("mensagem-confirmacao");
+const mensagemConfirmacao = document.getElementById("mensagemConfirmacao");
 
 botaoEnviar.addEventListener("click", validarFormulario);
 
