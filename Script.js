@@ -15,9 +15,9 @@ function validarFormulario() {
     if(nome === "" || email === "" || mensagem === ""){
         alert("Por favor, preencha todos os campos!");
     } else {
-        alert(`Obrigado ${nome}, sua mensagem foi enviada com sucesso!`);
+        alert("Obrigado ${nome}, sua mensagem foi enviada com sucesso!");
 
-        mensagemConfirmacao.textContent = `Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`;
+        mensagemConfirmacao.textContent = "Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.";
 
         inputNome.value = "";
         inputEmail.value = "";
